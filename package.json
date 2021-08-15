@@ -14,11 +14,7 @@
     "format": "prettier --write ."
   },
   "lint-staged": {
-    "pages/**/*.{js,jsx,ts,tsx}": [
-      "next lint",
-      "prettier --write ."
-    ],
-    "components/**/*.{js,jsx,ts,tsx}": [
+    "*.{js,jsx,ts,tsx}": [
       "next lint",
       "prettier --write ."
     ]
